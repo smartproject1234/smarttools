@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Cognitive.Face.Dotnet" Version="1.0.2" />
+    <PackageReference Include="DlibDotNet" Version="19.21.0.20220724" />
+  </ItemGroup>
+
 </Project>
