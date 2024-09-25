@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Cognitive.Face.Dotnet": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "DlibDotNet": {
+              "target": "Package",
+              "version": "[19.21.0.20220724, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
